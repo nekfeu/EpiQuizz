@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2937AC1B80E68700A2351F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937AB1B80E68700A2351F /* AppDelegate.swift */; };
+		0A2937AE1B80E68700A2351F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937AD1B80E68700A2351F /* ViewController.swift */; };
+		0A2937B11B80E68700A2351F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937AF1B80E68700A2351F /* Main.storyboard */; };
+		0A2937B31B80E68700A2351F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937B21B80E68700A2351F /* Images.xcassets */; };
+		0A2937B61B80E68700A2351F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937B41B80E68700A2351F /* LaunchScreen.xib */; };
+		0A2937C21B80E68700A2351F /* EpiQuizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937C11B80E68700A2351F /* EpiQuizzTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A2937BC1B80E68700A2351F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A29379E1B80E68700A2351F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2937A51B80E68700A2351F;
+			remoteInfo = EpiQuizz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2937A61B80E68700A2351F /* EpiQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2937AA1B80E68700A2351F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2937AB1B80E68700A2351F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A2937AD1B80E68700A2351F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A2937B01B80E68700A2351F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A2937B21B80E68700A2351F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A2937B51B80E68700A2351F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A2937BB1B80E68700A2351F /* EpiQuizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpiQuizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2937C01B80E68700A2351F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2937C11B80E68700A2351F /* EpiQuizzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpiQuizzTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2937A31B80E68700A2351F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2937B81B80E68700A2351F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A29379D1B80E68700A2351F = {
+			isa = PBXGroup;
+			children = (
+				0A2937A81B80E68700A2351F /* EpiQuizz */,
+				0A2937BE1B80E68700A2351F /* EpiQuizzTests */,
+				0A2937A71B80E68700A2351F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2937A71B80E68700A2351F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2937A61B80E68700A2351F /* EpiQuizz.app */,
+				0A2937BB1B80E68700A2351F /* EpiQuizzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2937A81B80E68700A2351F /* EpiQuizz */ = {
+			isa = PBXGroup;
+			children = (
+				0A2937AB1B80E68700A2351F /* AppDelegate.swift */,
+				0A2937AD1B80E68700A2351F /* ViewController.swift */,
+				0A2937AF1B80E68700A2351F /* Main.storyboard */,
+				0A2937B21B80E68700A2351F /* Images.xcassets */,
+				0A2937B41B80E68700A2351F /* LaunchScreen.xib */,
+				0A2937A91B80E68700A2351F /* Supporting Files */,
+			);
+			path = EpiQuizz;
+			sourceTree = "<group>";
+		};
+		0A2937A91B80E68700A2351F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2937AA1B80E68700A2351F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A2937BE1B80E68700A2351F /* EpiQuizzTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2937C11B80E68700A2351F /* EpiQuizzTests.swift */,
+				0A2937BF1B80E68700A2351F /* Supporting Files */,
+			);
+			path = EpiQuizzTests;
+			sourceTree = "<group>";
+		};
+		0A2937BF1B80E68700A2351F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2937C01B80E68700A2351F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2937A51B80E68700A2351F /* EpiQuizz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2937C51B80E68800A2351F /* Build configuration list for PBXNativeTarget "EpiQuizz" */;
+			buildPhases = (
+				0A2937A21B80E68700A2351F /* Sources */,
+				0A2937A31B80E68700A2351F /* Frameworks */,
+				0A2937A41B80E68700A2351F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpiQuizz;
+			productName = EpiQuizz;
+			productReference = 0A2937A61B80E68700A2351F /* EpiQuizz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A2937BA1B80E68700A2351F /* EpiQuizzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2937C81B80E68800A2351F /* Build configuration list for PBXNativeTarget "EpiQuizzTests" */;
+			buildPhases = (
+				0A2937B71B80E68700A2351F /* Sources */,
+				0A2937B81B80E68700A2351F /* Frameworks */,
+				0A2937B91B80E68700A2351F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A2937BD1B80E68700A2351F /* PBXTargetDependency */,
+			);
+			name = EpiQuizzTests;
+			productName = EpiQuizzTests;
+			productReference = 0A2937BB1B80E68700A2351F /* EpiQuizzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A29379E1B80E68700A2351F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kevin Empociello";
+				TargetAttributes = {
+					0A2937A51B80E68700A2351F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0A2937BA1B80E68700A2351F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0A2937A51B80E68700A2351F;
+					};
+				};
+			};
+			buildConfigurationList = 0A2937A11B80E68700A2351F /* Build configuration list for PBXProject "EpiQuizz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A29379D1B80E68700A2351F;
+			productRefGroup = 0A2937A71B80E68700A2351F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2937A51B80E68700A2351F /* EpiQuizz */,
+				0A2937BA1B80E68700A2351F /* EpiQuizzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2937A41B80E68700A2351F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2937B11B80E68700A2351F /* Main.storyboard in Resources */,
+				0A2937B61B80E68700A2351F /* LaunchScreen.xib in Resources */,
+				0A2937B31B80E68700A2351F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2937B91B80E68700A2351F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2937A21B80E68700A2351F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2937AE1B80E68700A2351F /* ViewController.swift in Sources */,
+				0A2937AC1B80E68700A2351F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2937B71B80E68700A2351F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2937C21B80E68700A2351F /* EpiQuizzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A2937BD1B80E68700A2351F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A2937A51B80E68700A2351F /* EpiQuizz */;
+			targetProxy = 0A2937BC1B80E68700A2351F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A2937AF1B80E68700A2351F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2937B01B80E68700A2351F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A2937B41B80E68700A2351F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2937B51B80E68700A2351F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2937C31B80E68700A2351F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A2937C41B80E68700A2351F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2937C61B80E68800A2351F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EpiQuizz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A2937C71B80E68800A2351F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EpiQuizz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A2937C91B80E68800A2351F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpiQuizzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpiQuizz.app/EpiQuizz";
+			};
+			name = Debug;
+		};
+		0A2937CA1B80E68800A2351F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpiQuizzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpiQuizz.app/EpiQuizz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2937A11B80E68700A2351F /* Build configuration list for PBXProject "EpiQuizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2937C31B80E68700A2351F /* Debug */,
+				0A2937C41B80E68700A2351F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2937C51B80E68800A2351F /* Build configuration list for PBXNativeTarget "EpiQuizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2937C61B80E68800A2351F /* Debug */,
+				0A2937C71B80E68800A2351F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A2937C81B80E68800A2351F /* Build configuration list for PBXNativeTarget "EpiQuizzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2937C91B80E68800A2351F /* Debug */,
+				0A2937CA1B80E68800A2351F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A29379E1B80E68700A2351F /* Project object */;
+}
