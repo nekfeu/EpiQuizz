@@ -13,6 +13,25 @@
 		0A2937B31B80E68700A2351F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937B21B80E68700A2351F /* Images.xcassets */; };
 		0A2937B61B80E68700A2351F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937B41B80E68700A2351F /* LaunchScreen.xib */; };
 		0A2937C21B80E68700A2351F /* EpiQuizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937C11B80E68700A2351F /* EpiQuizzTests.swift */; };
+		0A2937CC1B80FE4200A2351F /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937CB1B80FE4200A2351F /* questions.json */; };
+		0A2937CE1B80FF7800A2351F /* AskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937CD1B80FF7800A2351F /* AskList.swift */; };
+		0A2937D01B8137AD00A2351F /* ClassementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937CF1B8137AD00A2351F /* ClassementController.swift */; };
+		0A2937D21B8137F500A2351F /* myViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937D11B8137F500A2351F /* myViewCell.swift */; };
+		0A31A1911B847A81002B0219 /* ProgressRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1901B847A81002B0219 /* ProgressRound.swift */; };
+		0A31A1A41B847D63002B0219 /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A19E1B847D63002B0219 /* HTTPRequestSerializer.swift */; };
+		0A31A1A51B847D63002B0219 /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A19F1B847D63002B0219 /* HTTPResponseSerializer.swift */; };
+		0A31A1A61B847D63002B0219 /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1A01B847D63002B0219 /* HTTPSecurity.swift */; };
+		0A31A1A71B847D63002B0219 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1A11B847D63002B0219 /* HTTPStatusCode.swift */; };
+		0A31A1A81B847D63002B0219 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1A21B847D63002B0219 /* HTTPTask.swift */; };
+		0A31A1A91B847D63002B0219 /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1A31B847D63002B0219 /* HTTPUpload.swift */; };
+		0A31A1AB1B849C67002B0219 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31A1AA1B849C67002B0219 /* HomeController.swift */; };
+		0A6667A11B84BD7300FC33AF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667A01B84BD7300FC33AF /* Reachability.swift */; };
+		0A6667A31B84CE1E00FC33AF /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667A21B84CE1E00FC33AF /* ProfileController.swift */; };
+		0A6667A81B84DBC900FC33AF /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667A51B84DBC900FC33AF /* JLToast.swift */; };
+		0A6667A91B84DBC900FC33AF /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667A61B84DBC900FC33AF /* JLToastCenter.swift */; };
+		0A6667AA1B84DBC900FC33AF /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667A71B84DBC900FC33AF /* JLToastView.swift */; };
+		0A6667AC1B84F5F100FC33AF /* ClassementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667AB1B84F5F100FC33AF /* ClassementView.swift */; };
+		0A6667AE1B8501BB00FC33AF /* myCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6667AD1B8501BB00FC33AF /* myCellTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,26 @@
 		0A2937BB1B80E68700A2351F /* EpiQuizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpiQuizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2937C01B80E68700A2351F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2937C11B80E68700A2351F /* EpiQuizzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpiQuizzTests.swift; sourceTree = "<group>"; };
+		0A2937CB1B80FE4200A2351F /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		0A2937CD1B80FF7800A2351F /* AskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskList.swift; sourceTree = "<group>"; };
+		0A2937CF1B8137AD00A2351F /* ClassementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassementController.swift; sourceTree = "<group>"; };
+		0A2937D11B8137F500A2351F /* myViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myViewCell.swift; sourceTree = "<group>"; };
+		0A31A1901B847A81002B0219 /* ProgressRound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressRound.swift; sourceTree = "<group>"; };
+		0A31A19E1B847D63002B0219 /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		0A31A19F1B847D63002B0219 /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		0A31A1A01B847D63002B0219 /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		0A31A1A11B847D63002B0219 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		0A31A1A21B847D63002B0219 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		0A31A1A31B847D63002B0219 /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		0A31A1AA1B849C67002B0219 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0A6667A01B84BD7300FC33AF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0A6667A21B84CE1E00FC33AF /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0A6667A41B84DBC900FC33AF /* JLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLToast.h; sourceTree = "<group>"; };
+		0A6667A51B84DBC900FC33AF /* JLToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToast.swift; sourceTree = "<group>"; };
+		0A6667A61B84DBC900FC33AF /* JLToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastCenter.swift; sourceTree = "<group>"; };
+		0A6667A71B84DBC900FC33AF /* JLToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastView.swift; sourceTree = "<group>"; };
+		0A6667AB1B84F5F100FC33AF /* ClassementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassementView.swift; sourceTree = "<group>"; };
+		0A6667AD1B8501BB00FC33AF /* myCellTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCellTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +117,30 @@
 			isa = PBXGroup;
 			children = (
 				0A2937AB1B80E68700A2351F /* AppDelegate.swift */,
+				0A31A1901B847A81002B0219 /* ProgressRound.swift */,
 				0A2937AD1B80E68700A2351F /* ViewController.swift */,
+				0A2937CF1B8137AD00A2351F /* ClassementController.swift */,
+				0A31A1AA1B849C67002B0219 /* HomeController.swift */,
+				0A6667A21B84CE1E00FC33AF /* ProfileController.swift */,
+				0A2937D11B8137F500A2351F /* myViewCell.swift */,
+				0A6667AD1B8501BB00FC33AF /* myCellTable.swift */,
+				0A6667A01B84BD7300FC33AF /* Reachability.swift */,
+				0A2937CD1B80FF7800A2351F /* AskList.swift */,
+				0A6667AB1B84F5F100FC33AF /* ClassementView.swift */,
 				0A2937AF1B80E68700A2351F /* Main.storyboard */,
 				0A2937B21B80E68700A2351F /* Images.xcassets */,
 				0A2937B41B80E68700A2351F /* LaunchScreen.xib */,
+				0A2937CB1B80FE4200A2351F /* questions.json */,
+				0A31A19E1B847D63002B0219 /* HTTPRequestSerializer.swift */,
+				0A31A19F1B847D63002B0219 /* HTTPResponseSerializer.swift */,
+				0A31A1A01B847D63002B0219 /* HTTPSecurity.swift */,
+				0A31A1A11B847D63002B0219 /* HTTPStatusCode.swift */,
+				0A31A1A21B847D63002B0219 /* HTTPTask.swift */,
+				0A31A1A31B847D63002B0219 /* HTTPUpload.swift */,
+				0A6667A41B84DBC900FC33AF /* JLToast.h */,
+				0A6667A51B84DBC900FC33AF /* JLToast.swift */,
+				0A6667A61B84DBC900FC33AF /* JLToastCenter.swift */,
+				0A6667A71B84DBC900FC33AF /* JLToastView.swift */,
 				0A2937A91B80E68700A2351F /* Supporting Files */,
 			);
 			path = EpiQuizz;
@@ -193,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2937B11B80E68700A2351F /* Main.storyboard in Resources */,
+				0A2937CC1B80FE4200A2351F /* questions.json in Resources */,
 				0A2937B61B80E68700A2351F /* LaunchScreen.xib in Resources */,
 				0A2937B31B80E68700A2351F /* Images.xcassets in Resources */,
 			);
@@ -212,8 +272,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6667A91B84DBC900FC33AF /* JLToastCenter.swift in Sources */,
+				0A31A1A71B847D63002B0219 /* HTTPStatusCode.swift in Sources */,
+				0A31A1A51B847D63002B0219 /* HTTPResponseSerializer.swift in Sources */,
+				0A2937D01B8137AD00A2351F /* ClassementController.swift in Sources */,
+				0A31A1911B847A81002B0219 /* ProgressRound.swift in Sources */,
+				0A31A1A91B847D63002B0219 /* HTTPUpload.swift in Sources */,
+				0A6667A31B84CE1E00FC33AF /* ProfileController.swift in Sources */,
 				0A2937AE1B80E68700A2351F /* ViewController.swift in Sources */,
+				0A6667A11B84BD7300FC33AF /* Reachability.swift in Sources */,
+				0A31A1AB1B849C67002B0219 /* HomeController.swift in Sources */,
+				0A6667AE1B8501BB00FC33AF /* myCellTable.swift in Sources */,
+				0A6667AC1B84F5F100FC33AF /* ClassementView.swift in Sources */,
+				0A6667A81B84DBC900FC33AF /* JLToast.swift in Sources */,
+				0A31A1A61B847D63002B0219 /* HTTPSecurity.swift in Sources */,
+				0A2937CE1B80FF7800A2351F /* AskList.swift in Sources */,
+				0A31A1A81B847D63002B0219 /* HTTPTask.swift in Sources */,
+				0A31A1A41B847D63002B0219 /* HTTPRequestSerializer.swift in Sources */,
 				0A2937AC1B80E68700A2351F /* AppDelegate.swift in Sources */,
+				0A6667AA1B84DBC900FC33AF /* JLToastView.swift in Sources */,
+				0A2937D21B8137F500A2351F /* myViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +487,7 @@
 				0A2937C71B80E68800A2351F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A2937C81B80E68800A2351F /* Build configuration list for PBXNativeTarget "EpiQuizzTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +496,7 @@
 				0A2937CA1B80E68800A2351F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

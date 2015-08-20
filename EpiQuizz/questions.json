@@ -1,0 +1,365 @@
+{
+    "nb_asks": 40,
+    "questions": [
+                  {
+                  "id": 1,
+                  "ask": "A combien d’octets  correspond 1 To ?",
+                  "answer_one": "10 Puissance 11 octets",
+                  "answer_two": "10 Puissance 12 octets",
+                  "answer_three": "10 Puissance 13 octets",
+                  "answer_four": "1 Tio",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 2,
+                  "ask": "Que signifie DNS ?",
+                  "answer_one": "Domain Name System",
+                  "answer_two": "Domain Name Service",
+                  "answer_three": "Digital Nervous System",
+                  "answer_four": "Delta Network Systems",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 3,
+                  "ask": "Que signifie SSII ?",
+                  "answer_one": "Société de Services en Information Informatique",
+                  "answer_two": "Société de Services en Ingénierie Informatique",
+                  "answer_three": "Service et Société en informatique isolé",
+                  "answer_four": "Service de sauvegarde d'ingénieurie informatique",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 4,
+                  "ask": "Sur quoi se base le 1er systeme de programmation ?",
+                  "answer_one": "Morse",
+                  "answer_two": "Tubes à vide",
+                  "answer_three": "Plankalkül",
+                  "answer_four": "Carte Perforées",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 5,
+                  "ask": "A quoi correspond un processeur ?",
+                  "answer_one": "CPU",
+                  "answer_two": "Carte mère",
+                  "answer_three": "RAM",
+                  "answer_four": "GPU",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 6,
+                  "ask": "Qu’est-ce qui n’est pas un périphérique d’entrée ?",
+                  "answer_one": "Clavier",
+                  "answer_two": "Ecran",
+                  "answer_three": "Disque dur",
+                  "answer_four": "Webcam",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 7,
+                  "ask": "Quel port est associé au port HTTP ?",
+                  "answer_one": "21",
+                  "answer_two": "636",
+                  "answer_three": "80",
+                  "answer_four": "443",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 8,
+                  "ask": "2 constructeurs avec un service de maintenance ?",
+                  "answer_one": "HP & IBM",
+                  "answer_two": "Apple & IBM",
+                  "answer_three": "Lenovo & HP",
+                  "answer_four": "IBM & HP",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 9,
+                  "ask": "En quoi l’OS est une machine etendue ?",
+                  "answer_one": "Interface",
+                  "answer_two": "Vitesse",
+                  "answer_three": "Résolution",
+                  "answer_four": "Operating system",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 10,
+                  "ask": "Quelle couche gère l’adressage et le routage dans un système OSI ?",
+                  "answer_one": "Couche adressage",
+                  "answer_two": "Couche réseau",
+                  "answer_three": "Couche applicative",
+                  "answer_four": "Couche système",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 11,
+                  "ask": "Quel est le but du Colossus ?",
+                  "answer_one": "Encrypter les messages",
+                  "answer_two": "Auto-gerer un flux de Big-Data",
+                  "answer_three": "Trouver PI",
+                  "answer_four": "Casser le système de chiffrement allemand",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 12,
+                  "ask": "Quel est le nom de la machine de Pascal ?",
+                  "answer_one": "Pascaline",
+                  "answer_two": "Pascalade",
+                  "answer_three": "Pascual",
+                  "answer_four": "Pascalude",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 13,
+                  "ask": "Quelle est la correcte représentation d'une NOT ?",
+                  "answer_one": "propostion1",
+                  "answer_two": "propostion2",
+                  "answer_three": "propostion3",
+                  "answer_four": "propostion4",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 14,
+                  "ask": "Existe-t-il une porte logique à 4 entrées ?",
+                  "answer_one": "Oui",
+                  "answer_two": "Parfois",
+                  "answer_three": "Ça dépend",
+                  "answer_four": "Jamais",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 15,
+                  "ask": "1st industrie qui aborde la programmation ?",
+                  "answer_one": "Automobile",
+                  "answer_two": "Textile",
+                  "answer_three": "Ferroviaire",
+                  "answer_four": "Pharmaceutique",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 16,
+                  "ask": "Combien d'état peut avoir un chiffre binaire?",
+                  "answer_one": "1",
+                  "answer_two": "2",
+                  "answer_three": "4",
+                  "answer_four": "Ça dépend",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 17,
+                  "ask": "Combien d’entrées possède une fonction logique ?",
+                  "answer_one": "1",
+                  "answer_two": "2",
+                  "answer_three": "4",
+                  "answer_four": "Ça dépend",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 18,
+                  "ask": "Quel terme topologie signifie “Ordi relié à tous les autres”",
+                  "answer_one": "Réseau en anneau",
+                  "answer_two": "Réseau en étoile",
+                  "answer_three": "Réseau maillé",
+                  "answer_four": "Réseau linéaire",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 19,
+                  "ask": "Quel base est utilisée pour le système décimal ?",
+                  "answer_one": "10",
+                  "answer_two": "2",
+                  "answer_three": "16",
+                  "answer_four": "Héxa",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 20,
+                  "ask": "Quelle entreprise a inventé le PC (Personal Computer) ?",
+                  "answer_one": "APPLE",
+                  "answer_two": "IBM",
+                  "answer_three": "HP",
+                  "answer_four": "DELL",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 21,
+                  "ask": "%10 est un nombre ?",
+                  "answer_one": "ASCII",
+                  "answer_two": "Décimal",
+                  "answer_three": "Binaire",
+                  "answer_four": "Hexadécimal",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 22,
+                  "ask": "Quel est le poids de l’ENIAC ?",
+                  "answer_one": "30 Kilos",
+                  "answer_two": "300 Kilos",
+                  "answer_three": "3 Tonnes",
+                  "answer_four": "30 Tonnes",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 23,
+                  "ask": "De quand date les premiers Windows ?",
+                  "answer_one": "1985-1987",
+                  "answer_two": "1975-1982",
+                  "answer_three": "2000-2002",
+                  "answer_four": "1980-1990",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 24,
+                  "ask": "Dans quelle machine a-t'on peu de chance de voir un OS embarqué ?",
+                  "answer_one": "Aspirateur automatique",
+                  "answer_two": "Super-ordinateur NASA",
+                  "answer_three": "Voiture",
+                  "answer_four": "Avion",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 25,
+                  "ask": "A quand remonte la naissance de l'ordinateur ?",
+                  "answer_one": "35 ans",
+                  "answer_two": "72 ans",
+                  "answer_three": "100 ans",
+                  "answer_four": "65 ans",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 26,
+                  "ask": "Que remplace les transistors ?",
+                  "answer_one": "Tubes à vide",
+                  "answer_two": "Cartes performées",
+                  "answer_three": "Processeur",
+                  "answer_four": "Carte mère",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 27,
+                  "ask": "Qu'est ce qu'est que la RAM ?",
+                  "answer_one": "Registre",
+                  "answer_two": "Mémoire vive",
+                  "answer_three": "Mémoire morte",
+                  "answer_four": "Mémoire de stockage",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 28,
+                  "ask": "Quel protocole est associé résolution d’adresse IP et de nom d’ hote ?",
+                  "answer_one": "TCP",
+                  "answer_two": "UDP",
+                  "answer_three": "SSL",
+                  "answer_four": "DNS",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 29,
+                  "ask": "Combien vaut D (héxa) ?",
+                  "answer_one": "9",
+                  "answer_two": "Ça vaut rien",
+                  "answer_three": "13",
+                  "answer_four": "Plus de 0",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 30,
+                  "ask": "“Si j’ai une ligne ADSL, ordi avec une carte reseau, un modem, le cablage necessaire, que me manque-t-il pour acceder a internet ?”",
+                  "answer_one": "Une IP",
+                  "answer_two": "Un FAI",
+                  "answer_three": "Routeur",
+                  "answer_four": "De la chance",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 31,
+                  "ask": "Quelle est la particularité du Colossus ?",
+                  "answer_one": "Première machine totalement électronique",
+                  "answer_two": "Première machine recyclable",
+                  "answer_three": "Première machine aussi légère",
+                  "answer_four": "Première machine totalement électronique",
+                  "real_answer": 4
+                  },
+                  {
+                  "id": 32,
+                  "ask": "Dans une base, la puissance correspond ...",
+                  "answer_one": "à la force",
+                  "answer_two": "au rang",
+                  "answer_three": "à rien",
+                  "answer_four": "à la puissance",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 33,
+                  "ask": "Quelle est l'utilité de la table de vérité ?",
+                  "answer_one": "Aucune",
+                  "answer_two": "A donner la vérité",
+                  "answer_three": "Tableau représentant les entrées et les sorties",
+                  "answer_four": "Tableau représentant les fonctions logiques",
+                  "real_answer": 3
+                  },
+                  {
+                  "id": 34,
+                  "ask": "L'UDP est contenu dans quelle couche ?",
+                  "answer_one": "Couche de transport",
+                  "answer_two": "Couche d'application",
+                  "answer_three": "Couche réseau",
+                  "answer_four": "Aucune",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 35,
+                  "ask": "Quelle fonction n'est pas exécutée par le noyau de l’OS ?",
+                  "answer_one": "Gèrer les ressources de l’ordinateur et permet aux différents composants de communiquer entre eux.",
+                  "answer_two": "Echange entre les entrées et sorties",
+                  "answer_three": "Monte et met en place le file system",
+                  "answer_four": "Mets à disposition les différents syscall",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 36,
+                  "ask": "Comment le raccordement ADSL est nommé chez le FAI ?",
+                  "answer_one": "ADSL Asymmetric Digital Subscriber Line",
+                  "answer_two": "DSLAM Digital Subscriber Line Access Multiplexer",
+                  "answer_three": "NRA",
+                  "answer_four": "Internet",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 37,
+                  "ask": "Internet est un reseau de type ?",
+                  "answer_one": "LAN",
+                  "answer_two": "WAN",
+                  "answer_three": "TCP",
+                  "answer_four": "HTTP",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 38,
+                  "ask": "Que vaut 1ko ?",
+                  "answer_one": "100 octets",
+                  "answer_two": "1000 octets",
+                  "answer_three": "1024 octets",
+                  "answer_four": "1 euro",
+                  "real_answer": 2
+                  },
+                  {
+                  "id": 39,
+                  "ask": "Quel est le nom du premier ordinateur ?",
+                  "answer_one": "Colossus",
+                  "answer_two": "Macbook",
+                  "answer_three": "L'ENIAC",
+                  "answer_four": "SSEC",
+                  "real_answer": 1
+                  },
+                  {
+                  "id": 40,
+                  "ask": "Quel est le nom du premier OS ?",
+                  "answer_one": "Windows",
+                  "answer_two": "Linux",
+                  "answer_three": "Terminal",
+                  "answer_four": "MS-DOS",
+                  "real_answer": 4
+                  }
+                  ]
+}
