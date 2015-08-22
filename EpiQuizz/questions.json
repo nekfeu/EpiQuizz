@@ -360,6 +360,15 @@
                   "answer_three": "Terminal",
                   "answer_four": "MS-DOS",
                   "real_answer": 4
+                  },
+                  {
+                  "id": 41,
+                  "ask": "Année du 1er ordinateur Apple ?",
+                  "answer_one": "Windows",
+                  "answer_two": "Linux",
+                  "answer_three": "Terminal",
+                  "answer_four": "MS-DOS",
+                  "real_answer": 4
                   }
                   ]
 }

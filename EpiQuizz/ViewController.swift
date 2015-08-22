@@ -154,6 +154,35 @@ class ViewController: UIViewController {
         }
     }
     
+    func animationAnswer(answer: Bool, reinit: Bool) {
+        var color : UIColor!
+        if (answer == true) {
+           color = UIColor(rgba: "#2ecc71")
+        } else {
+            color = UIColor(rgba: "#ea6153")
+        }
+        if (reinit == true) {
+            color = UIColor(rgba: "#6BB9F0")
+        }
+        UIView.animateWithDuration(0.5, animations:{
+            self.firstResponseLabel.backgroundColor = color
+            self.secondResponseLabel.backgroundColor = color
+            self.thirdResponseLabel.backgroundColor = color
+            self.fourthResponseLabel.backgroundColor = color
+        }, completion: {(finished:Bool) in
+            UIView.animateWithDuration(0.5, animations:{
+                self.firstResponseLabel.backgroundColor = UIColor(rgba: "#6BB9F0")
+                self.secondResponseLabel.backgroundColor = UIColor(rgba: "#6BB9F0")
+                self.thirdResponseLabel.backgroundColor = UIColor(rgba: "#6BB9F0")
+                self.fourthResponseLabel.backgroundColor = UIColor(rgba: "#6BB9F0")
+                }, completion: {(finished:Bool) in
+                    self.questionDone++
+                    self.updateScore()
+                    self.updateQuestion()
+            })
+        })
+    }
+    
     func checkAnswer(nbAnswer: Int) {
         if (questionDone == 29) {
             timer.invalidate()
@@ -166,14 +195,13 @@ class ViewController: UIViewController {
             })
         } else {
             if (currentAnswer == nbAnswer) {
+                animationAnswer(true, reinit: false)
                 print("Good answer")
                 scoreValue++
             } else {
+                animationAnswer(false, reinit: false)
                 print("Wrong answer")
             }
-            questionDone++
-            updateScore()
-            updateQuestion()
         }
     }
     
@@ -182,6 +210,7 @@ class ViewController: UIViewController {
     }
     
     func updateQuestion() {
+        //animationAnswer(false, reinit: true)
         var randomNb = giveRandom()
         currentAnswer = questionsList.questions[randomNb].valueForKey("real_answer") as? Int
         questionLabel.text = questionsList.questions[randomNb].valueForKey("ask") as? String
@@ -197,3 +226,60 @@ class ViewController: UIViewController {
     
 }
 
+extension UIView {
+    func fadeIn(duration: NSTimeInterval = 1.0, delay: NSTimeInterval = 0.0, completion: ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
+        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+            self.alpha = 1.0
+            }, completion: completion)  }
+    
+    func fadeOut(duration: NSTimeInterval = 1.0, delay: NSTimeInterval = 0.0, completion: (Bool) -> Void = {(finished: Bool) -> Void in}) {
+        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+            self.alpha = 0.0
+            }, completion: completion)
+    }
+}
+
+extension UIColor {
+    public convenience init(rgba: String) {
+        var red:   CGFloat = 0.0
+        var green: CGFloat = 0.0
+        var blue:  CGFloat = 0.0
+        var alpha: CGFloat = 1.0
+        
+        if rgba.hasPrefix("#") {
+            let index   = advance(rgba.startIndex, 1)
+            let hex     = rgba.substringFromIndex(index)
+            let scanner = NSScanner(string: hex)
+            var hexValue: CUnsignedLongLong = 0
+            if scanner.scanHexLongLong(&hexValue) {
+                switch (count(hex)) {
+                case 3:
+                    red   = CGFloat((hexValue & 0xF00) >> 8)       / 15.0
+                    green = CGFloat((hexValue & 0x0F0) >> 4)       / 15.0
+                    blue  = CGFloat(hexValue & 0x00F)              / 15.0
+                case 4:
+                    red   = CGFloat((hexValue & 0xF000) >> 12)     / 15.0
+                    green = CGFloat((hexValue & 0x0F00) >> 8)      / 15.0
+                    blue  = CGFloat((hexValue & 0x00F0) >> 4)      / 15.0
+                    alpha = CGFloat(hexValue & 0x000F)             / 15.0
+                case 6:
+                    red   = CGFloat((hexValue & 0xFF0000) >> 16)   / 255.0
+                    green = CGFloat((hexValue & 0x00FF00) >> 8)    / 255.0
+                    blue  = CGFloat(hexValue & 0x0000FF)           / 255.0
+                case 8:
+                    red   = CGFloat((hexValue & 0xFF000000) >> 24) / 255.0
+                    green = CGFloat((hexValue & 0x00FF0000) >> 16) / 255.0
+                    blue  = CGFloat((hexValue & 0x0000FF00) >> 8)  / 255.0
+                    alpha = CGFloat(hexValue & 0x000000FF)         / 255.0
+                default:
+                    print("Invalid RGB string, number of characters after '#' should be either 3, 4, 6 or 8")
+                }
+            } else {
+                println("Scan hex error")
+            }
+        } else {
+            print("Invalid RGB string, missing '#' as prefix")
+        }
+        self.init(red:red, green:green, blue:blue, alpha:alpha)
+    }
+}

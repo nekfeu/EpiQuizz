@@ -29,10 +29,10 @@ class HomeController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        if (Reachability.isConnectedToNetwork() == false) {
+      /*  if (Reachability.isConnectedToNetwork() == false) {
             putAlertBox("Erreur Internet", messageMessage: "Active ta connexion internet s'il te plait, on l'utilise pour le classement national mais aussi pour mettre à jours les questions")
         }
-        checkInternet()
+        checkInternet() */
         var userLogin: String? = self.userDefaults.objectForKey("userLogin") as! String?
         var userCity: String? = self.userDefaults.objectForKey("userCity") as! String?
         if (userLogin == nil || userCity == nil) {
