@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A22F7C01B89EB7200BB77C0 /* ContributeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22F7BF1B89EB7200BB77C0 /* ContributeController.swift */; };
 		0A2937AC1B80E68700A2351F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937AB1B80E68700A2351F /* AppDelegate.swift */; };
 		0A2937AE1B80E68700A2351F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2937AD1B80E68700A2351F /* ViewController.swift */; };
 		0A2937B11B80E68700A2351F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2937AF1B80E68700A2351F /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A22F7BF1B89EB7200BB77C0 /* ContributeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributeController.swift; sourceTree = "<group>"; };
 		0A2937A61B80E68700A2351F /* EpiQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2937AA1B80E68700A2351F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2937AB1B80E68700A2351F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				0A2937AD1B80E68700A2351F /* ViewController.swift */,
 				0A2937CF1B8137AD00A2351F /* ClassementController.swift */,
 				0A31A1AA1B849C67002B0219 /* HomeController.swift */,
+				0A22F7BF1B89EB7200BB77C0 /* ContributeController.swift */,
 				0A6667A21B84CE1E00FC33AF /* ProfileController.swift */,
 				0A2937D11B8137F500A2351F /* myViewCell.swift */,
 				0A6667AD1B8501BB00FC33AF /* myCellTable.swift */,
@@ -292,6 +295,7 @@
 				0A2937AC1B80E68700A2351F /* AppDelegate.swift in Sources */,
 				0A6667AA1B84DBC900FC33AF /* JLToastView.swift in Sources */,
 				0A2937D21B8137F500A2351F /* myViewCell.swift in Sources */,
+				0A22F7C01B89EB7200BB77C0 /* ContributeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
